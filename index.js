@@ -12,6 +12,9 @@ function calculateBMI(){
 
     if(bmiValue < 18.5){
       weightConditionEl.innerText = "Under weight"
+    } else if (bmiValue >=18.5 && bmiValue <= 24.9)
+    {
+      weightConditionEl.innerText = "Normal weight"
     }
 }
 
